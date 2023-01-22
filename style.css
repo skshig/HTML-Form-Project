@@ -19,21 +19,15 @@
 .form-fields{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    /* justify-content: flex-start; */
-    /* align-items: center; */
 }
 .heading-section{
     display: flex;
     justify-content: flex-start;
     margin: 15px 0 0 28px;
-    /* align-items: center; */
 }
 .inputs{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: baseline;
     margin: 20px;
     border: none; 
 }
@@ -43,8 +37,6 @@
 .inputs input {
     width: 669px;
     height: 0px;
-    /* left: 202px; */
-    /* top: 324.01px; */
     border: 1px solid #FFFFFF;
     transform: rotate(-0.1deg);
 }
