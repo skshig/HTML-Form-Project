@@ -48,6 +48,9 @@
     display: flex;
     gap: 20px;
 }
+#radio1, #radio2{
+    filter: grayscale(1);
+}
 
 #radio2{
     padding-left: 13px;
