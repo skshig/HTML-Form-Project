@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+}
+.form-container{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+    margin: 45px 104px 138px 220px;
+}
+.complete-form{
+    margin: 35px;
+}
+.form-fields{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+}
+.heading-section{
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0 0 28px;
+    /* align-items: center; */
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 20px;
+    border: none; 
+}
+.inputs div{
+    margin: 10px;
+}
+.inputs input {
+    width: 669px;
+    height: 0px;
+    /* left: 202px; */
+    /* top: 324.01px; */
+    border: 1px solid #FFFFFF;
+    transform: rotate(-0.1deg);
+}
+
+.radiocheckbox div{
+    margin: 1px 0px 8px 0px;;
+}
+.radio{
+    display: flex;
+    gap: 20px;
+}
+
+#radio2{
+    padding-left: 13px;
+}
+.radiocheckbox{
+    margin-left: 27px;
+    margin-top: -11px;
+}
+#signup{
+    width: 98px;
+    color: black !important;
+    height: 28px;
+    margin: 23px 0 0 26px;
+}
